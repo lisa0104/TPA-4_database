@@ -1,0 +1,1 @@
+SELECT AVG(price_total) FROM orders WHERE order_date >= now() - interval 30 day

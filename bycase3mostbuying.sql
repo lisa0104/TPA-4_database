@@ -1,0 +1,1 @@
+SELECT t2.products_name, t1.products_id,count(t1.products_id) as hitung from orders_item t1 join products t2 on t1.products_id = t2.products_id group by t1.products_id order by hitung desc limit 3

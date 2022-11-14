@@ -1,0 +1,1 @@
+SELECT t2.name, t1.categories_id,count(t1.categories_id) as hitung from products_cat t1 join categories t2 on t1.categories_id = t2.categories_id group by t1.categories_id order by hitung desc limit 1

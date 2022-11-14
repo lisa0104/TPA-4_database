@@ -1,0 +1,1 @@
+DELETE FROM casiers WHERE casiers_id = 10;
